@@ -1,0 +1,367 @@
+body{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif !important;
+}
+.w-79{
+  width: 79% !important;
+}
+.mainBody{
+  border-top:1px solid #babbae;
+  border-right:1px solid #babbae;
+  border-left:1px solid #babbae;
+ 
+
+}
+.header{
+  background-color: #000;
+  height: 35px;
+  width: 100%;
+}
+.libHead{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  font-size: 1.3em;
+    font-weight: 400;
+    color: #02598b;
+    margin-bottom: 0.8em;
+    padding-top: 1.75em;
+    padding-bottom: 2px;
+    padding-left: 5px;
+   background-color: white;
+    
+    
+}
+
+.photos{
+  max-width: 160px;
+}
+.m-auto{
+  margin: auto;
+}
+
+.donateBtn {
+    text-decoration: none;
+    padding: 0.1rem 0.4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: none;
+    border: 1px solid #999;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.donateBtn:hover{
+  color: #fff;
+}
+
+.bookCard{
+  border: 1px solid #999;
+  background-color: beige;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-item-align: center;
+}
+/*navbar styling*/
+.signup-btn,.blue-btn{
+background-color: #0376b8;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+.signup-btn:hover {
+  color: #fff;
+  
+  background-color: #0376b8;
+  }
+  /*announcement*/
+  .announce{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #333;
+  }
+  .banner-text{
+    font-size: 0.9rem;
+  }
+  /*searchbox*/
+  .search-input:focus , select:focus , option:focus ,#inputGroupSelect03:focus{
+    outline: none !important;
+    border: none !important;
+  }
+  #inputGroupSelect03{
+    background-color: none;
+    background-color: inherit;
+    border: none;
+  }
+  .search-cont{
+    background-color: #f9f9f9;
+    border-radius: 3px;
+  }
+  .search-input{
+    background-color: #f9f9f9;
+    color: #666;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  #search_box{
+    border: 1px solid #babbae;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    border-left: none;
+  }
+  .bi-search , #button-addon1{
+    background-color: #f9f9f9;
+  }
+  .search-type{
+    background-color: hsla(48,33%,83%,.32);
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #babbae;
+    border-left: 1px solid #babbae;
+    border-bottom: 1px solid #babbae;
+    border-radius: 3px 0 0 3px;
+    font-weight: 500;
+    color: #666;
+    font-size: 14px;
+  }
+ 
+/*open library books section*/
+.bookCard{
+  min-width: 310px;
+  width: 310px;
+  border: 1px solid #ddd; 
+  border-radius:  5px;
+  padding: 10px;
+  background-color: #fcfbf7;
+  height: 130px;
+}
+.cardImage{
+  width: 80px;
+  height: 80px;
+  opacity: 80%;
+
+}
+.bookTitle{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.bookBody{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  color: #a19b9e;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.booksDesc {
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+ }
+ .slick-list{
+  width: 95%;
+  margin: auto !important;
+ }
+ .slick-next:before {
+  content: '→';
+}
+.slick-prev:before, .slick-next:before{
+  color:hsl(202, 96%, 37%) !important;
+  font-size: 35px !important;
+  
+}
+.slick-prev, .slick-next{
+  width: 35px !important;
+  height: 40px !important;
+}
+.slick-prev{
+  left: -9px !important;
+}
+.slick-next {
+  right: -5px !important;
+  width: 40px !important;
+  height: 35px !important;
+}
+/*trending library*/
+.beige_background{
+  background-color:#f3edd7;
+  border-bottom: 1px solid #babbae;
+  border-right: 1px solid #babbae;
+  border-left:  1px solid #babbae;
+}
+/* footer */
+
+/*trending library*/
+/* browes start */
+.browes{
+  background-color:white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid #babbae;
+  border-left:  1px solid #babbae;
+}
+
+.art{
+  width: 60px;
+  height: 70px;
+  background-color:white;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.trendlink{
+  width:141px ;
+  text-align: center;
+ 
+  color: black;
+  margin-top: 0;
+}
+.trendlink>a{
+  color: black
+}
+.trendlink>a:hover{
+  color: hsl(202, 96%, 37%)
+}
+
+/* browes end  */
+
+.trendBook{
+  width: 134px;
+  height: 200px;
+  background-color:#f3edd7;
+  overflow: hidden;
+}
+
+.trendBtn{
+  width:141px ;
+  height: 50;
+}
+
+.active-btn, .notActive-btn{
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.5em;
+  text-decoration: none;
+  transition: background-color .2s;
+  padding:5px;
+  width: 100%;
+  border: none;
+}
+.active-btn{
+  background-color: #0376b8;
+}
+.active-btn:hover{
+  background-color: #013654;
+}
+.notActive-btn{
+  background-color: #666;
+}
+.active-btn:hover , .notActive-btn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.preview-btn{
+background-color: #fff;
+border:2px solid #0376b8;
+color: #0376b8;
+padding: 3px;
+width: 100%;
+text-align: center;
+  white-space: nowrap;
+  line-height: 1.5em;
+}
+
+
+
+  /* jghjg */
+  /* .navlink{
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
+    text-align: start;
+    margin: 0px;
+    padding: 0;
+  }
+  #logo{
+    margin-right: 50px;
+    margin-left: 0;
+  }
+  .navtitle{
+    text-decoration: none;
+    color: rgb(81, 78, 78);
+    margin-right: 50px;
+    margin-top: 13px;
+    padding-top: 13px;
+    font-size: 15px;
+  }
+
+  .hhhg{
+    display: flex;
+    margin-right: 0px;
+  }
+  #search{
+    width: 300px;
+  }
+  .btn1{
+    margin-right: 50px;
+  }
+ */
+ 
+ .sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 1px;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+}
+.menu-bars{
+  justify-content: end;
+  margin-left: 3rem;
+  margin-top: -4px;
+  font-size: 2rem;
+  background: none;
+  align-items: flex-end;
+  border: none;
+  font-weight: lighter;
+ }
+
+
+ /* Around
+  */
+  .about{
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(81, 78, 78);
+    
+  }
+  #para5{
+    font-size: 15px;
+    display: inline;
+    font-weight: lighter;
+  }
+  #para1{
+    font-size: 20px;
+  }
+  #para2{
+    font-size: 12px;
+  }
+  #para3{
+    font-size: 25px;
+    color: #2471A3;
+  }
+  .para4{
+    font-size: 15px;
+    color: #2471A3;
+  }
+/* form responsive code */
+ 

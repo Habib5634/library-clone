@@ -1,0 +1,30 @@
+.inp {
+    width:500px;
+  }
+.lform{
+  height:55vh;
+   background-color:white;
+    width:80%;
+    padding:10px;
+    margin:10px;
+}
+.sform{
+    height: 75vh;
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .inp {
+      width:250px;
+    }
+    .lform{
+      height: 80vh;
+    }
+    .sform{
+        height: 130vh;
+    }
+
+  }
